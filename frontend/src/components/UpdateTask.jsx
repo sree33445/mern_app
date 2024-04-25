@@ -29,7 +29,7 @@ const UpdateTask = () => {
       .then((result) => {
         console.log(result);
         navigate("/");
-  })
+  })}
 
     const {id} = useParams()
   return (
